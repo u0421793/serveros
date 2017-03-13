@@ -5,8 +5,9 @@ Pretty simple idea. A web server, that runs on bare metal, has the necessary dri
 As a comparison, it is a bit like how (for example) chromeos is a web client that runs on bare metal in the form of a laptop, and can drive screens, keyboards, storage, network, etc. This would have an even simpler time - forget screens and keyboard, this only needs to run on raspberrypi or similar kinds of devices, and just needs to drive storage and network (and maybe blinkenlites).
 
 As I say, you wouldn't install an operating system first then this server OS, you install this server OS, first, and perhaps stop there.
---
-Well, briefly: ChromeOS (the operating system of the Chromebook laptop product) is basically a browser - Chrome the browser. Normally you'd run Chrome or any other browser on top of an existing OS, such as macOS or Linux or whatever others there are out there on peoples computers.	  
+
+# context:
+As a comparison, or a parallel, ChromeOS (the operating system of the Chromebook laptop product) is basically a browser - Chrome the browser. Normally you'd run Chrome or any other browser on top of an existing OS, such as macOS or Linux or whatever others there are out there on peoples computers.	  
 
 The idea of the Chromebooks is that there's a good subset of people who only ever use their computer to go onto the web, so the only program they use is a web browser - the same browser each time - and they probably don't even realise it is known as a browser. They think that everything they see on the web is what the computer is showing them and that's what the computer is for. ChromeOS removes the superfluous underlying operating system, and all the other applications and programs on it, replacing it with only a browser, but one that can run on a computer directly as opposed to on top of an operating system.	  
 
@@ -16,3 +17,14 @@ In the current case of a web server, it'll most likely only ever run that web se
 
 The bare metal bit suggests that you can't get any more fundamental in a computer - there's no layer or abstraction in between.
 —	Ian Tindale, Mar 08 2017
+
+# developmental strategy
+
+very much a case of 
+1: collect underpants
+2: ?
+3: launch Server OS
+
+# refinements in direction
+
+It could be entirely possible that this could be a node thing. Get node.js to be able to driver machine drivers, and get the other end of node.js to be able to run nginx. Then install it on something - bare metal, no other OS.
