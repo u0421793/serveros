@@ -21,9 +21,11 @@ The bare metal bit suggests that you can't get any more fundamental in a compute
 # developmental strategy
 
 very much a case of 
-1: collect underpants
-2: ?
-3: launch Server OS
+
+  1. collect underpants
+  2. ?
+  3. launch Server OS
+  
 
 # refinements in direction
 
