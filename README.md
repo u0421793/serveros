@@ -22,11 +22,10 @@ The bare metal bit suggests that you can't get any more fundamental in a compute
 
 very much a case of 
 
-  1. collect underpants
-  2. ?
-  3. launch Server OS
-  
+1. collect underpants
+2. ?
+3. launch Server OS
 
 # refinements in direction
 
-It could be entirely possible that this could be a node thing. Get node.js to be able to driver machine drivers, and get the other end of node.js to be able to run nginx. Then install it on something - bare metal, no other OS.
+It could be entirely possible that this could be a node.js thing. Get node.js to be able to drive machine drivers, and get the other end of node.js to be able to run nginx. Then install it on something - bare metal, no other OS.
