@@ -1,3 +1,11 @@
 1. collect underpants
 2. ?
 3. launch Server OS
+
+1 in detail: 
+1.1. find out what device drivers already in linux are necessary for a server to run on (for example) a Raspberry Pi
+1.2. find out if node.js can run a kernel written in (mostly) node.js
+1.3. find out what system calls this node kernel would need to call to make the drivers do their stuff
+1.4. find out whether node.js could support running nginx on top of it or within it or somewhere around it
+1.5. find out if this node.js running nginx and with a kernel that can call device drivers would actually work
+1.6. if it works, does it work well enough?
