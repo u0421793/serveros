@@ -9,3 +9,5 @@
 1.4. find out whether node.js could support running nginx on top of it or within it or somewhere around it
 1.5. find out if this node.js running nginx and with a kernel that can call device drivers would actually work
 1.6. if it works, does it work well enough?
+
+Look, to be honest, doesn't need to run node.js. Filling it with a threaded interpretive stack language will do the job just fine.
