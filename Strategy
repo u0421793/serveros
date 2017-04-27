@@ -11,3 +11,5 @@
 1.6. if it works, does it work well enough?
 
 Look, to be honest, doesn't need to run node.js. Filling it with a threaded interpretive stack language will do the job just fine.
+In fact, brainfuck is probably the ideal language. Seriously though, the language isn't the important thing.
+The important thing is simply making an existing server run without an OS on a small processor.
